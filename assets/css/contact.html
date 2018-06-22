@@ -1,0 +1,264 @@
+<!-- Bootstrap Grid Demo -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Bootstrap Demo</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="header3">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class= "name3">
+                <a class="navbar-brand text-white" href="#" ></a><strong>Dale Padelford</id></strong></a>
+            </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link text-muted" href="#">About |<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#">Portfolio |</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-muted" href="#">Contact</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+</header>
+            
+
+
+
+<div class="container3b">
+
+ 
+        <div class="row">
+                
+                <!-- -->
+               <div class="col-xs-12, col-sm-12, col-md-8, col-lg-8">
+                  <div class="contact">
+                    <h3><strong>Contact</strong></h3>
+                     <hr>
+                  </div>
+               </div>
+          
+               <div class="col-md-4, col-lg-4">
+          
+          </div>
+    </div>
+
+   
+
+    <div class="container3c">
+
+            <form id="contact-form" method="post" action="contact.php" role="form">
+
+                    <div class="messages"></div>
+                
+                    <div class="controls">
+                
+                        <div class="row">
+                            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-8">
+                                <div class="form-group">
+                                    <label for="form_name">Name</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="John Smith" required="required" data-error="Firstname is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4"></div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-8">
+                                <div class="form-group">
+                                    <label for="form_email">Email</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="example@gmail.com" required="required" data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4"></div>
+                        </div>   
+                        <div class="row">
+                            <div class="ol-xs-12, col-sm-12, col-md-12, col-lg-8">
+                                <div class="form-group">
+                                    <label for="form_message">Message</label>
+                                    <textarea id="form_message" name="message" class="form-control" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4"></div>
+                         </div>
+
+                         <div class="row">
+                            <div class="col-xs-12, col-sm-12, col-md-12, col-lg-8">
+                                <div class="submit">
+                                <input type="submit" class="btn btn-primary btn-send background-color" value="Submit">
+                                </div>
+                            </div>
+                            <div class="col-lg-4"></div>
+                        </div> 
+
+                </form>
+
+                </div>
+
+                <div class="col-lg-4"></div>
+                
+            </div>
+
+
+  <div class="container3d">
+    <div class="row">
+        <div class="col-md-12"> 
+         <footer>&copy; Copyright</footer>
+        </div>
+    </div>
+</div>
+
+<style>
+
+body {
+
+background-image:url(file:///Users/garnetdianthus/Basic-Portfolio/assets/images/background.jpg);
+width: 100%;
+height: 100%;
+padding-top: 2%;
+margin-top: -20px;
+
+}
+
+
+.header3bdg {
+
+background-color: #ffffff;
+width: 100%;
+height: 20%;
+margin: 0;
+
+}
+
+.container3a {
+
+margin-top: 30px;
+margin-left:20%;
+}
+
+
+
+#header3 {
+
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
+font-size: 30px;
+margin-bottom: 15px;
+margin-right: 15px; 
+
+ 
+
+}
+
+
+a {
+
+color:#777777;
+font-size: 14px;
+line-height: 40px;
+text-decoration: none;
+
+}
+
+p {
+
+    color:#777777;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.contact {
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+
+
+}
+
+
+footer {
+    background-color: #666666;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    text-align: center;
+    border-top: 4px solid #4aaaa5;   
+
+}
+
+
+
+
+ /* NOTES
+
+ 1. make responsive - layout and images(including floating tabs)
+ 2. add background image by container
+ 3. add navbar
+ 4. make sure it is formatted for screen sizes: 
+ eg. On xs and sm screens, each section should 
+ take up the entire grid. On md and larger screens, 
+ each section should take up 2/3 of the grid and the 
+ sidebar should take up 1/3 of the grid
+ 5. deploy to github pages
+ 6. bonus: sticky footer, sub rows, sub columns
+
+
+ PART TWO
+
+1. copy and paste basic portfolio into responsive portfolio (no gitignore)
+2. use style.css. write media queries (at bottom)
+3. use three media screem tags (max-widths: 980px, 768px, 649px)
+4.index.html: 980px, 768px, 640px
+portfolio.html: 980px, 768px, 640px
+contact.html: 980px, 768px, 640px
+5.Make the position of the header static 
+(the default positioning) when the screen 
+is 640px wide. The header design takes up 
+a lot of room; you don't want it to stick 
+to the top of a small screen and leave no 
+room for the rest of your site.
+6. Be sure to include the viewport tag in 
+all your HTML files, otherwise your media-queries
+ won't function as expected on mobile devices. 
+ (Hint: You won't need to use exact pixels for 
+ anything other than the container)
+ 7. Protip: Use the Chrome extensions Window Resizer and Browser Width to see the browser dimensions in Chrome.
+Deploy your new portfolio (now with media queries!) to GitHub Pages.
+
+
+
+
+
+
+
+ 
+  /*/
+</style>
+      
+</body>
+
+
+</html>
