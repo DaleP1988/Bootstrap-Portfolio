@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <title>Bootstrap Portfolio!</title>
+  </head>
+  <body>
+
+<header>
+
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" id="logo" href="index.html">Dale Padelford</a>
+        </div>
+      
+          <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html" id="about" >About</a></li>
+              <li><a href="assets/css/portfolio.html" id="Portfolio">Portfolio</a></li>
+              <li><a href="contact.html" id="contact">Contact</a></li>
+            </ul>
+       </div>
+     </div><!-- /.container-fluid -->
+</nav>
+</header>  
+<div class="container">
+    <div class= "row">
+        <div class="col-sm-10 col-md-7" id="content3">
+            <h1>Contact</h1>
+            <hr>
+            <form action="#">
+                    <span>Name</span><br>
+                    <input class="field" type="text" name="name" value="John Smith">
+                    <br>
+                    <span>Email</span><br>
+                    <input class="field" type="text" name="email" value="example@gmail.com">
+                    <br>
+                    <span>Message</span><br>
+                    <input class="field" id="message" type="text">
+                    <br>
+                    <input id="submit" type="submit" value="Submit">
+            </form> 
+        </div>
+  
+
+        <div class="col-sm-4 col-md-4" id="connect3">
+            <h3>Connect with Me</h3>
+
+            <hr>
+
+            <a href="https://github.com/DaleP1988" id="links" target="_blank"><img src="assets/images/github.png" height="51"/>
+             </a>
+
+            <a href="https://www.linkedin.com/in/dale-padelford-b3542792/" id="links" target="_blank"><img src="assets/images/linkedin.png" height="51"/>
+            </a>
+
+        </div>
+    </div>
+</div>
+  
+                         
+    <footer class="footer">
+
+            <!--Footer Bottom-->
+            &copy; Copyright 2018 Dale Padelford
+          
+  </footer>
+ 
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<style>
+
+
+header {
+
+
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    padding: 0px;
+    background-color:#ffffff;
+
+}
+
+#logo{
+
+margin-left: 30%;
+width: 100%;
+}
+
+.nav {
+
+margin-right: 10%;
+
+}
+
+#Portfolio, #contact {
+
+border-left-style: solid;
+border-left-width: 1px;
+height: 5px;
+padding-top: 5px;
+margin-top: 10px;
+border-left-color:#cccccc;
+
+}
+
+footer {
+    
+    background-color: #666666;
+    color: white;
+    padding-top: 30px;
+    font-size: 12px;
+    padding-bottom: 3px;
+    border-top: 4px solid #4aaaa5;
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height:8%;
+
+
+    }
+
+#content3 {
+
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    background-color: #ffffff;
+    margin-left: 2%;
+    padding: 15px;
+    width: 65%;
+    float: left;
+}
+
+
+#connect3 {
+
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px;
+    padding-bottom: 5%;
+    padding-top: 2%;
+    text-align: center;
+    margin-left: 2%;
+    width: 22%;
+}
+
+
+h3 {
+
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-weight: bold; 
+
+}
+
+span, form {
+
+    color:#666666;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.field {
+
+    width: 70%;
+    margin-bottom: 3%;
+}
+
+#message {
+
+    height: 100px !important;
+}
+
+#submit {
+
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 8px;
+    margin-top: 2%;
+
+
+}
+
+
+
+
+@media screen and (max-width: 980px) {
+
+#logo {
+
+margin-left: 25%;
+}
+
+#content3 {
+
+margin-left: 0;
+width: 80%
+}
+
+#connect3 {
+
+margin-left: 20%;
+margin-top: 5%;
+width: 50%;
+height: 20%;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+#logo {
+
+margin-left: 15%;
+}
+
+#content3 {
+
+margin-right: 0;
+width: 80%;
+float: left;
+}
+
+#connect3 {
+
+margin-left: 30%;
+margin-top: 5%;
+width: 40%;
+height: 20%;
+}
+
+}
+
+
+@media screen and (max-width: 640px) {
+
+#logo {
+ width: 50%;
+ margin-left: 9%;
+
+
+}  
+
+#content3 {
+
+
+}
+
+#connect3 {
+
+    height: 200px;
+    margin-right: 0px;
+
+
+
+}
+}
+
+
+
+</style>
+</body>
+</html>
